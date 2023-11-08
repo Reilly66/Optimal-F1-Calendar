@@ -1,0 +1,11 @@
+[gd_scene load_steps=2 format=3 uid="uid://bslm0lj46l3km"]
+
+[ext_resource type="Script" path="res://Scenes/OptimalPath/OptimalPath.cs" id="1_xruuk"]
+
+[node name="OptimalPath" type="Node3D"]
+script = ExtResource("1_xruuk")
+
+[node name="CSGSphere3D" type="CSGSphere3D" parent="."]
+radius = 1.0
+radial_segments = 100
+rings = 100
